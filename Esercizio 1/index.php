@@ -8,7 +8,7 @@
 <body>
     <h1><?php
 
-$giorniSettimana = array(
+$giorniSettimana = [
     'Sunday' => 'Domenica',
     'Monday' => 'Lunedì',
     'Tuesday' => 'Martedì',
@@ -16,9 +16,9 @@ $giorniSettimana = array(
     'Thursday' => 'Giovedì',
     'Friday' => 'Venerdì',
     'Saturday' => 'Sabato'
-);
+];
 
-$mesi = array(
+$mesi = [
     'January' => 'gennaio',
     'February' => 'febbraio',
     'March' => 'marzo',
@@ -31,7 +31,7 @@ $mesi = array(
     'October' => 'ottobre',
     'November' => 'novembre',
     'December' => 'dicembre'
-);
+];
 
 $oggi = getdate();
 
